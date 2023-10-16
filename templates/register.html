@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register</title>
+</head>
+<body>
+
+<h2>Register Form</h2>
+
+<form action="/register" method="post">
+    <div class="container">
+        <label for="first_name"><b>First Name</b></label>
+        <input type="text" placeholder="Enter First Name" name="first_name" required>
+
+        <label for="last_name"><b>Last Name</b></label>
+        <input type="text" placeholder="Enter Last Name" name="last_name" required>
+
+        <label for="username"><b>Username</b></label>
+        <input type="text" placeholder="Enter Username" name="username" required>
+
+        <label for="password"><b>Password</b></label>
+        <input type="password" placeholder="Enter Password" name="password" required>
+
+        <button type="submit">Register</button>
+    </div>
+
+    <div class="container">
+        <span class="login">Already have an account? <a href="/login">Login</a></span>
+    </div>
+</form>
+
+</body>
+</html>

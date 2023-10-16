@@ -1,0 +1,44 @@
+# Install these packages before runninng. 
+
+pip install sqlite3
+pip install Flask
+pip install bcrypt
+pip install requests
+pip install getpass
+pip install tkinter
+
+# Open up two terminals. 
+
+# ------------- Terminal One --------------------
+# Then Run the command: python3 app.py 
+# -----------------------------------------------
+
+# ------------- Terminal Two --------------------
+# Then Run the command: python3 terminal_menu.py 
+# -----------------------------------------------
+
+
+#
+# vim [random name]
+# i -> insert
+# :wq -> write and quit
+# :q!
+
+# :sp [random name]
+# :terminal
+
+
+# We used 400 as a way to see if the results where bad. 
+# 200 -> success. 
+
+# Change this if needed: BASE_URL = "http://172.16.159.132:8080/"
+
+
+#python3 app.py 
+#WARNING: This is a development server. Do not use it in a production deployment I server instead.
+#* Running on all addresses (0.0.0.0)
+#* Running on http://127.0.0.1:8080
+#* Running on http://172.31.196.48:8080
+             ###########################
+
+
